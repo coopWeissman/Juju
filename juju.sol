@@ -12,7 +12,7 @@ contract NFT is ERC721Enumerable, Ownable {
   uint256 public cost = .0069 ether;
   uint256 public maxSupply = 10000;
   bool public paused = false;
-  address devs = 0x617F2E2fD72FD9D5503197092aC168c91465E7f2;
+  address devs = 0xaeFF9473F2DB6A5E32416e1cC0997B04bA34493c;
   mapping(address => uint256) public addressMintedBalance;
 
 
